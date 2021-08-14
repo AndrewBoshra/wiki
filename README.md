@@ -1,4 +1,4 @@
-# wiki
+# Wiki
 Wiki is an encyclopedia project. created using django / python.
 
 
