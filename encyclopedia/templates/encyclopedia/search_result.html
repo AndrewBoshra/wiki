@@ -1,0 +1,20 @@
+{% extends 'encyclopedia/layout.html' %}
+{% block title %}
+    results for {{query}}
+{% endblock%}
+{% block body %}
+
+    <br>
+    <h3>
+        Results for {{query}}
+    </h3>
+    <br>
+    <ul> 
+    {% for result in results %}
+        <a href=" {% url 'viewpage' result%} "> <li>{{result}}</li></a>
+        {%empty%}
+        <h6> Oops Nothing was found.....</h6>
+        <h6> try searching for another keyword</h6>
+    {% endfor %}
+    </ul>
+{% endblock body %}    

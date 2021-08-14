@@ -1,0 +1,11 @@
+{% extends 'encyclopedia/layout.html' %} {%block title%} New Page
+{%endblock%} {%block body%}
+<form action="" method="POST" style="width: 70%;" >
+    <table style="width: 100%;">
+        {{ page.as_table }}
+    </table>
+    <br>
+    {%csrf_token%}
+    <button type="submit" class="btn btn-primary mb-3" style="margin-left: 90%;">Save</button>
+</form>
+{%endblock%}
