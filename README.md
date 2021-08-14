@@ -8,4 +8,4 @@ this project is created for training.
 it allows users to create & edit existing entries  
 
 
-See it in Action here (youtube video)[https://www.youtube.com/watch?v=n1lvmE4h_eM]
+See it in Action here [youtube video](https://www.youtube.com/watch?v=n1lvmE4h_eM)
