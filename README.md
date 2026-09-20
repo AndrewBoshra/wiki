@@ -1,14 +1,25 @@
 # Wiki
-Wiki is an encyclopedia project. created using django / python.
 
+An encyclopedia where entries are written in Markdown, created and edited in the browser.
 
-## About Wiki
+## Stack
 
-* This project is created for training.  
-* It allows users to create & edit existing entries  
-* Each encyclopedia entry will be saved as a Markdown file inside of the entries/ directory.  
-* **Markdown to HTML Conversion:** On each entry’s page, any Markdown content in the entry file should be converted to HTML before being displayed to the user.  
+Django · Python · Markdown
 
+## Features
 
+- Browse, search and read entries
+- Create new entries and edit existing ones in Markdown
+- Random entry
+- Markdown rendered to HTML on display
 
-See it in Action here [youtube video](https://www.youtube.com/watch?v=n1lvmE4h_eM)
+## Running it
+
+```bash
+pip install -r requirements.txt
+python manage.py runserver
+```
+
+## Notes
+
+Built as a CS50 Web Programming project.
